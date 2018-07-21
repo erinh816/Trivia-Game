@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Trivia Game</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="assets/style.css">
+
+  
+</head>
+
+<body background="assets/background1.jpg">
+
+  <div id="game">
+     
+    <div id = "startpage">
+          <h1 class = "title">EDM Trivia<br> Eat <br> Sleep <br> Rave <br> Repeat</h1>
+    
+          <button type="button" class="btn btn-outline-warning" id="start">START</button>
+    </div>
+    
+
+    <div id="questions">
+         
+        <h1 id = "timer_line">Time Remaining: <span id = "timer_number">30 Seconds</span></h1>
+
+        <h4 id="Q1">Which electronics artist uses only solely their music in their sets?</h4><br>
+        <form >
+        <input type="radio" name="q1" id="num1" value="Deadmau5"> Deadmau5
+        <input type="radio" name="q1" value="Dillon Francis"> Dillon Francis
+        <input type="radio" name="q1" value="Kygo"> Kygo
+        <input type="radio" name="q1" value="Porter Robinson"> Porter Robinson
+        </form>
+        <br>
+      
+        <h4 id="Q2">Who's the Top 1 DJ of 2018 on DJ Magazine?</h4><br>
+        <form >
+        <input type="radio" name="q2" value="Martin Garrix"> Martin Garrix
+        <input type="radio" name="q2" value="Tiesto"> Tiesto
+        <input type="radio" name="q2" value="Armin Van Burran"> Armin Van Burran
+        <input type="radio" name="q2" value="Kylie Jenner"> Kylie Jenner 
+        </form>
+        <br>
+      
+        <h4 id="Q3">Which year is Ultra Miami's 20th annivesary?</h4><br>
+        <form >
+        <input type="radio" name="q3" value="2015"> 2015
+        <input type="radio" name="q3" value="2016"> 2016
+        <input type="radio" name="q3" value="2017"> 2017
+        <input type="radio" name="q3" value="2018"> 2018
+        </form>
+        <br>
+        
+        <h4 id="Q4">Who closed the main stage set of Ezoo 2016?</h4><br>
+        <form >
+        <input type="radio" name="q4" value="Tiesto"> Tiesto
+        <input type="radio" name="q4" value="Justin Bieber"> Justin Bieber
+        <input type="radio" name="q4" value="Hardwell"> Hardwell
+        <input type="radio" name="q4" value="The Chainsmokers"> The Chainsmokers
+        </form>
+
+
+        <button type="button" class="btn btn-outline-warning" id="submit">SUBMIT</button>
+        
+    </div>
+
+    <div id="result">
+
+       <h1 class = "title">EDM Trivia</h1>
+
+			 <h1 id = "finish">All Done!PLUR!</h1>
+			<br>
+
+			<h1>Correct Answers: <span id = "correct_answers">0</span></h1>
+			<h1>Incorrect Answers: <span id = "wrong_answers">0</span></h1>
+			<h1>Unanswered: <span id = "unanswered">0</span></h1>
+      <button type="button" class="btn btn-outline-warning" id="startover">Startover</button>
+    </div>
+    
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<script src="assets/javascript.js"></script>
+</body>
+
+</html>

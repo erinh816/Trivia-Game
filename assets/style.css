@@ -1,0 +1,44 @@
+
+#startpage {
+background-image: url(background2.jpg);
+opacity:0.8;
+filter:alpha(opacity=40);
+width:1000px;
+height:600px;
+margin:200px;
+padding-right:30px;
+padding-top:130px; 
+color:white;
+text-align: center;
+font-size:120px;
+font-family: 'Anton', sans-serif;     
+}
+
+#questions {background-image: url(background2.jpg);
+opacity:0.8;
+filter:alpha(opacity=40);
+width:1000px;
+height:600px;
+margin:200px;
+padding-right:30px;
+padding-top:20px;   
+color:white;
+    text-align: center;
+    font-size:20px;
+    font-family: 'Anton', sans-serif;   
+}
+#result{background-image: url(background2.jpg);
+opacity:0.8;
+filter:alpha(opacity=40);
+width:1000px;
+height:600px;
+margin:200px;
+padding-right:30px;
+padding-top:130px;  
+color:white;
+    text-align: center;
+    font-size:60px;
+    font-family: 'Anton', sans-serif;    
+}
+
+
